@@ -11,7 +11,7 @@ tags: ["3D Genome", "Hi-C", "EMT", "Epigenetics", "Chromatin architecture"]
 links:
   - name: Paper (Neuro-Oncology)
     doi: "10.1186/s13059-022-02687-x"
-    url_source: "https://doi.org/10.1186/s13059-022-02687-x"
+    url_source: "http://doi.org/10.1186/s13059-022-02687-x"
 ---
 
 ## The question
