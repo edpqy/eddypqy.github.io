@@ -10,7 +10,8 @@ tags: ["Glioblastoma", "ROS", "EZH2", "NF-κB", "Therapy resistance"]
 
 links:
   - name: Paper (Neuro-Oncology)
-    url: "https://doi.org/10.1093/neuonc/noae206"
+    doi: "10.1093/neuonc/noae206"
+    url_source: "https://doi.org/10.1093/neuonc/noae206"
 ---
 
 ## The problem
