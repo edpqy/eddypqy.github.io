@@ -10,14 +10,13 @@
 
 <body>
   <div class="layout">
-    <!-- Sidebar -->
     <aside class="sidebar">
       <div class="profileCard">
         <div class="avatar" aria-hidden="true"></div>
         <div class="who">
           <div class="name">Eddy Pang</div>
           <div class="title">Computational & Translational Neuro-Oncology</div>
-          <div class="subtitle">GBM · Multi-omics · TME · Epigenetics · 3D genome</div>
+          <div class="subtitle">GBM · Multi-omics · Tumor microenvironment · Epigenetics · 3D genome</div>
         </div>
       </div>
 
@@ -25,13 +24,15 @@
         <a class="chip" href="mailto:eddy_pq_you@nni.com.sg">Email</a>
         <a class="chip" href="https://github.com/edpqy" target="_blank" rel="noreferrer">GitHub</a>
         <a class="chip" href="https://orcid.org/0000-0002-8988-7255" target="_blank" rel="noreferrer">ORCID</a>
+        <a class="chip" href="CV.pdf" target="_blank" rel="noreferrer">CV</a>
       </div>
 
       <nav class="nav" aria-label="Section navigation">
         <a class="navlink is-active" href="#about">About</a>
         <a class="navlink" href="#focus">Research Focus</a>
-        <a class="navlink" href="#projects">Highlights</a>
+        <a class="navlink" href="#highlights">Highlights</a>
         <a class="navlink" href="#pubs">Publications</a>
+        <a class="navlink" href="#experience">Experience</a>
         <a class="navlink" href="#skills">Expertise</a>
         <a class="navlink" href="#collab">Collaboration</a>
         <a class="navlink" href="#contact">Contact</a>
@@ -43,32 +44,28 @@
       </div>
     </aside>
 
-    <!-- Main -->
     <main class="main">
       <header class="topbar">
         <div>
           <h1>Profile</h1>
-          <p class="muted">
-            Single-page research dashboard — designed for fast scanning in meetings.
-          </p>
+          <p class="muted">Single-page research dashboard — CV-aligned, with project highlights for fast scanning in meetings.</p>
         </div>
         <div class="topActions">
-          <a class="btn" href="#projects">Jump to Highlights</a>
+          <a class="btn" href="#highlights">Jump to Highlights</a>
           <a class="btn ghost" href="#pubs">Jump to Publications</a>
         </div>
       </header>
 
-      <!-- About -->
       <section id="about" class="section">
         <div class="grid2">
           <article class="card">
-            <div class="cardTitle">About</div>
+            <div class="cardTitle">Professional Summary</div>
             <p>
               I work at the intersection of <strong>computational biology</strong> and <strong>translational neuro-oncology</strong>,
               focusing on <strong>glioblastoma (GBM)</strong> heterogeneity, therapy resistance, and microenvironment-driven
-              state transitions. My work integrates <strong>multi-omics analysis</strong> with mechanistic validation in patient-derived models.
+              state transitions. My work integrates <strong>multi-omics analysis</strong> with mechanistic validation in patient-derived models,
+              and I build resources that accelerate collaborative hypothesis testing.
             </p>
-
             <div class="pillRow">
               <span class="pill">GBM heterogeneity</span>
               <span class="pill">Tumor microenvironment</span>
@@ -83,32 +80,18 @@
             <p class="quote">
               I integrate multi-omics and translational models to understand GBM heterogeneity and
               microenvironment-driven plasticity, aiming to identify stratified vulnerabilities and actionable targets.
-              I also build resources (e.g., GlioPortal) to accelerate collaborative hypothesis testing.
+              I also build resources (e.g., Glioportal) to speed up collaborative hypothesis testing.
             </p>
-
             <div class="kpiGrid">
-              <div class="kpi">
-                <div class="kpiNum">3</div>
-                <div class="kpiLab">Key highlights</div>
-              </div>
-              <div class="kpi">
-                <div class="kpiNum">6</div>
-                <div class="kpiLab">Signal papers</div>
-              </div>
-              <div class="kpi">
-                <div class="kpiNum">↔</div>
-                <div class="kpiLab">Bench ↔ Computation</div>
-              </div>
-              <div class="kpi">
-                <div class="kpiNum">1</div>
-                <div class="kpiLab">Flagship resource</div>
-              </div>
+              <div class="kpi"><div class="kpiNum">3</div><div class="kpiLab">Flagship highlights</div></div>
+              <div class="kpi"><div class="kpiNum">4</div><div class="kpiLab">Signal papers</div></div>
+              <div class="kpi"><div class="kpiNum">↔</div><div class="kpiLab">Bench ↔ Computation</div></div>
+              <div class="kpi"><div class="kpiNum">1</div><div class="kpiLab">Public resource</div></div>
             </div>
           </article>
         </div>
       </section>
 
-      <!-- Research Focus -->
       <section id="focus" class="section">
         <h2>Research Focus</h2>
         <div class="grid3">
@@ -117,7 +100,7 @@
             <p class="muted">Subtype identity and recurrence-associated mesenchymal programs.</p>
             <ul class="list">
               <li>State transitions and tumor evolution</li>
-              <li>Clinical relevance via stratification</li>
+              <li>Stratification-aware analysis for clinical relevance</li>
             </ul>
           </article>
 
@@ -125,7 +108,7 @@
             <div class="cardTitle">Tumor microenvironment signaling</div>
             <p class="muted">Ligand–receptor interactions driving adaptation and invasion.</p>
             <ul class="list">
-              <li>Myeloid and stromal signaling</li>
+              <li>Myeloid / stromal signaling programs</li>
               <li>Actionable axes for intervention</li>
             </ul>
           </article>
@@ -141,8 +124,7 @@
         </div>
       </section>
 
-      <!-- Highlights (3 Project Cards) -->
-      <section id="projects" class="section">
+      <section id="highlights" class="section">
         <div class="sectionHead">
           <h2>Highlights</h2>
           <div class="muted small">Three cards that anchor the story in a meeting.</div>
@@ -152,7 +134,7 @@
           <article class="card project">
             <div class="projectTop">
               <div class="badge">Flagship</div>
-              <div class="projectTitle">GlioPortal</div>
+              <div class="projectTitle">Glioportal</div>
             </div>
             <p class="muted">
               Transcriptomic resource enabling exploration of ligand-mediated mesenchymal transition and
@@ -165,13 +147,10 @@
               <span class="tag">GBM</span>
             </div>
             <div class="links">
-              <!-- Replace the portal URL when ready -->
               <a class="linkBtn" href="#" target="_blank" rel="noreferrer">Portal</a>
               <a class="linkBtn ghost" href="https://doi.org/10.1093/neuonc/noaf145" target="_blank" rel="noreferrer">Paper</a>
             </div>
-            <div class="hint small muted">
-              Best demo: one gene → one ligand axis → one survival/stratification readout.
-            </div>
+            <div class="hint small muted">Best demo: one gene → one ligand axis → one stratification/survival readout.</div>
           </article>
 
           <article class="card project">
@@ -216,7 +195,6 @@
         </div>
       </section>
 
-      <!-- Publications -->
       <section id="pubs" class="section">
         <div class="sectionHead">
           <h2>Selected Publications</h2>
@@ -227,41 +205,72 @@
           <div class="pub">
             <div class="pubTitle">Glioportal: a comprehensive transcriptomic resource unveiling ligand-mediated mesenchymal transition in glioblastoma</div>
             <div class="pubMeta">Neuro-Oncology · 2025</div>
-            <div class="pubLinks">
-              <a href="https://doi.org/10.1093/neuonc/noaf145" target="_blank" rel="noreferrer">DOI</a>
-            </div>
+            <div class="pubLinks"><a href="https://doi.org/10.1093/neuonc/noaf145" target="_blank" rel="noreferrer">DOI</a></div>
           </div>
 
           <div class="pub">
             <div class="pubTitle">EZH2 functional dichotomy in reactive oxygen species-stratified glioblastoma</div>
             <div class="pubMeta">Neuro-Oncology · 2024</div>
-            <div class="pubLinks">
-              <a href="https://doi.org/10.1093/neuonc/noae206" target="_blank" rel="noreferrer">DOI</a>
-            </div>
+            <div class="pubLinks"><a href="https://doi.org/10.1093/neuonc/noae206" target="_blank" rel="noreferrer">DOI</a></div>
           </div>
 
           <div class="pub">
             <div class="pubTitle">Multiplexed RNA profiling by regenerative catalysis enables blood-based subtyping of brain tumors</div>
             <div class="pubMeta">Nature Communications · 2023</div>
-            <div class="pubLinks">
-              <a href="https://doi.org/10.1038/s41467-023-39844-0" target="_blank" rel="noreferrer">DOI</a>
-            </div>
+            <div class="pubLinks"><a href="https://doi.org/10.1038/s41467-023-39844-0" target="_blank" rel="noreferrer">DOI</a></div>
           </div>
 
           <div class="pub">
             <div class="pubTitle">3D genome organization in the epithelial–mesenchymal transition spectrum</div>
             <div class="pubMeta">Genome Biology · 2022</div>
-            <div class="pubLinks">
-              <a href="https://doi.org/10.1186/s13059-022-02687-x" target="_blank" rel="noreferrer">DOI</a>
-            </div>
+            <div class="pubLinks"><a href="https://doi.org/10.1186/s13059-022-02687-x" target="_blank" rel="noreferrer">DOI</a></div>
           </div>
         </article>
       </section>
 
-      <!-- Expertise -->
+      <section id="experience" class="section">
+        <h2>Professional Experience</h2>
+        <div class="timeline">
+          <article class="card tl">
+            <div class="tlHead">
+              <div class="tlRole">Research Fellow</div>
+              <div class="tlTime muted">National Neuroscience Institute · Singapore</div>
+            </div>
+            <ul class="list">
+              <li>Built transcriptomic resources and analysis workflows for GBM biology and translational research.</li>
+              <li>Integrated multi-omics analyses to support stratification and therapeutic hypothesis generation.</li>
+              <li>Collaborated across wet-lab, clinical, and computational teams.</li>
+            </ul>
+          </article>
+
+          <article class="card tl">
+            <div class="tlHead">
+              <div class="tlRole">Postdoctoral Fellow</div>
+              <div class="tlTime muted">National University Health System · Singapore</div>
+            </div>
+            <ul class="list">
+              <li>Developed and applied 3D genome + epigenomics approaches to study cellular state programs.</li>
+              <li>Mentored junior researchers and contributed to collaborative projects.</li>
+            </ul>
+          </article>
+
+          <article class="card tl">
+            <div class="tlHead">
+              <div class="tlRole">Graduate Researcher</div>
+              <div class="tlTime muted">Cancer Science Institute · Singapore</div>
+            </div>
+            <ul class="list">
+              <li>Built genomics analysis pipelines and investigated regulatory mechanisms in EMT-related programs.</li>
+            </ul>
+          </article>
+        </div>
+        <div class="muted small" style="margin-top:10px;">
+          Tip: Replace these bullets with exact lines from your CV for maximum alignment.
+        </div>
+      </section>
+
       <section id="skills" class="section">
         <h2>Expertise</h2>
-
         <div class="grid2">
           <article class="card">
             <div class="cardTitle">Computational</div>
@@ -291,7 +300,6 @@
         </div>
       </section>
 
-      <!-- Collaboration -->
       <section id="collab" class="section">
         <h2>Collaboration</h2>
         <div class="grid2">
@@ -311,17 +319,14 @@
           <article class="card">
             <div class="cardTitle">What I bring</div>
             <p class="muted">
-              End-to-end ability to turn biological questions into analyses, signatures, and resources — then loop
-              back into experimental validation.
+              End-to-end ability to translate biological questions into analyses, signatures, and resources — then loop
+              back into validation and collaboration.
             </p>
-            <div class="callout">
-              If you want one “demo”: we can walk GlioPortal in under 60 seconds during a meeting.
-            </div>
+            <div class="callout">If you want one “demo”: we can walk through Glioportal in under 60 seconds during a meeting.</div>
           </article>
         </div>
       </section>
 
-      <!-- Contact -->
       <section id="contact" class="section">
         <h2>Contact</h2>
         <article class="card">

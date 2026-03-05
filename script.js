@@ -1,11 +1,7 @@
-// Year
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// Scroll-spy highlight on sidebar
 const links = [...document.querySelectorAll(".navlink")];
-const sections = links
-  .map(a => document.querySelector(a.getAttribute("href")))
-  .filter(Boolean);
+const sections = links.map(a => document.querySelector(a.getAttribute("href"))).filter(Boolean);
 
 const obs = new IntersectionObserver((entries) => {
   for (const e of entries) {
